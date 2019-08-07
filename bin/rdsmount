@@ -1,0 +1,6 @@
+#!/bin/sh
+
+mount /rds/general/user/$USER
+mkdir -p /rds/general/user/$USER/home/.x2go
+mount /rds/general/user/$USER/home/.x2go
+

@@ -1,0 +1,5 @@
+#!/bin/sh
+
+umount -l /rds/general/user/$USER/home/.x2go
+umount -l /rds/general/user/$USER
+

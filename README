@@ -1,0 +1,20 @@
+
+
+
+* make_rds_mount.sh
+
+  For a given set of RDS groups, gets the members and creates:
+	-  RDS mount points
+  -  /etc/fstab entries for the RDS mount
+  -  /etc/fstab entries for tmpfs overlay for ~/.x2go
+
+ This script assumes the machine is using ou=hpc or ou=rds
+ 
+ - Put this script in the root crontab
+
+* rdsmount
+* rdsunmount
+
+ - To be run by a user to mount/unmount their RDS share
+
+  
